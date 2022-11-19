@@ -18,10 +18,10 @@ kiwisolver==1.0.1
 Markdown==2.6.11
 matplotlib==2.2.3
 mock==2.0.0
-numpy==1.14.5
+numpy==1.22.2
 pbr==4.2.0
-Pillow==5.2.0
-protobuf==3.6.1
+Pillow==9.2.0
+protobuf==3.18.3
 pyparsing==2.2.0
 python-dateutil==2.7.3
 pytz==2018.5
@@ -30,6 +30,10 @@ scipy==1.1.0
 six==1.11.0
 subprocess32==3.5.2
 tensorboard==1.10.0
-tensorflow==1.10.1
+tensorflow==2.7.2
 termcolor==1.1.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
+requests>=2.20 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
